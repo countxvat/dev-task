@@ -1,0 +1,37 @@
+App\Entity\TurnoverItem:
+  turnover_item_client1_DE_to_PL{1..200}:
+    turnover: '@turnover_client1_DE_to_PL<current()>'
+    invoiceVatRate: 19
+    invoiceTotalNetAmount: 10000
+    invoiceTotalBruttoAmount: 11900
+    invoiceTotalVatAmount: 1900
+    invoiceTotalNetAmountEUR: 2500
+    invoiceTotalBruttoAmountEUR: 2975
+    invoiceTotalVatAmountEUR : 475
+  turnover_item_client1_DE_to_PL_reduced_{1..50}:
+    turnover: '@turnover_client1_DE_to_PL<current()>'
+    invoiceVatRate: 5
+    invoiceTotalNetAmount: 10000
+    invoiceTotalBruttoAmount: 10500
+    invoiceTotalVatAmount: 500
+    invoiceTotalNetAmountEUR: 2500
+    invoiceTotalBruttoAmountEUR: 2625
+    invoiceTotalVatAmountEUR : 125
+  turnover_item_client2_PL_to_FR{1..300}:
+    turnover: '@turnover_client2_PL_to_FR<current()>'
+    invoiceVatRate: 20
+    invoiceTotalNetAmount: 1000
+    invoiceTotalBruttoAmount: 1200
+    invoiceTotalVatAmount: 200
+    invoiceTotalNetAmountEUR: 1000
+    invoiceTotalBruttoAmountEUR: 1200
+    invoiceTotalVatAmountEUR : 200
+  turnover_item_client2_PL_to_FR_reduced_{1..100}:
+    turnover: '@turnover_client2_PL_to_FR<current()>'
+    invoiceVatRate: 10
+    invoiceTotalNetAmount: 1000
+    invoiceTotalBruttoAmount: 1100
+    invoiceTotalVatAmount: 100
+    invoiceTotalNetAmountEUR: 1000
+    invoiceTotalBruttoAmountEUR: 1100
+    invoiceTotalVatAmountEUR : 100

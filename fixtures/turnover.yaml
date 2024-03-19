@@ -1,9 +1,18 @@
 App\Entity\Turnover:
-  turnover_client1_DE_to_PL{1..25}:
+  turnover_client1_DE_to_PL{1..200}:
     client: '@client1'
     departureCountry: '@countryDE'
     arrivalCountry: '@countryPL'
-  turnover_client2_PL_to_FR{1..250}:
+    vatCountry: '@countryPL'
+    documentNumber: 'DEPL-0000000-<current()>'
+    documentDate: <(new \DateTime('2023-12-27'))>
+    zipCode: <(400+$current)>00
+    city: '<city()>'
+  turnover_client2_PL_to_FR{1..300}:
     client: '@client2'
     departureCountry: '@countryPL'
     arrivalCountry: '@countryFR'
+    vatCountry: '@countryFR'
+    documentNumber: 'DEPL-0000000-<current()>'
+    documentDate: <(new \DateTime('2023-12-28'))>
+    city: '<city()>'

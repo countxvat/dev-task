@@ -3,7 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\ORM\Mapping\UniqueConstraint;
+use JMS\Serializer\Annotation as Serializer;
 
 /**
  * Country.
@@ -15,6 +15,8 @@ use Doctrine\ORM\Mapping\UniqueConstraint;
 class Country
 {
     /**
+     * @Serializer\Groups({"api"})
+     *
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
@@ -22,16 +24,22 @@ class Country
     private ?int $id = null;
 
     /**
+     * @Serializer\Groups({"api"})
+     *
      * @ORM\Column(name="short_name", type="string", length=10, nullable=false)
      */
     private string $shortName;
 
     /**
+     * @Serializer\Groups({"api"})
+     *
      * @ORM\Column(name="name", type="string", length=100, nullable=false)
      */
     private string $name;
 
     /**
+     * @Serializer\Groups({"api"})
+     *
      * @ORM\Column(name="is_eu", type="boolean", options={"default": false}, nullable=false)
      */
     private bool $isEu;
