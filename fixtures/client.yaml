@@ -1,0 +1,9 @@
+App\Entity\Client:
+  client1:
+    name: 'John Doe'
+    address: 'Some address'
+    country: '@countryDE'
+  client2:
+    name: 'Jane Doe'
+    address: 'Another address'
+    country: '@countryDE'

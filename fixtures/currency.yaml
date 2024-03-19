@@ -1,0 +1,7 @@
+App\Entity\Currency:
+  euro:
+    shortName: 'EUR'
+    name: 'Euro'
+  pln:
+    shortName: 'PLN'
+    name: 'Polish zloty'

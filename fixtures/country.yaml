@@ -1,0 +1,16 @@
+App\Entity\Country:
+  countryDE:
+    shortName: 'DE'
+    name: 'Germany'
+    isEu: true
+    currency: '@euro'
+  countryPL:
+    shortName: 'PL'
+    name: 'Poland'
+    isEu: true
+    currency: '@pln'
+  countryFR:
+    shortName: 'FR'
+    name: 'France'
+    isEu: true
+    currency: '@euro'

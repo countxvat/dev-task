@@ -1,0 +1,9 @@
+App\Entity\Turnover:
+  turnover_client1_DE_to_PL{1..25}:
+    client: '@client1'
+    departureCountry: '@countryDE'
+    arrivalCountry: '@countryPL'
+  turnover_client2_PL_to_FR{1..250}:
+    client: '@client2'
+    departureCountry: '@countryPL'
+    arrivalCountry: '@countryFR'
