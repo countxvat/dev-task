@@ -14,3 +14,8 @@ App\Entity\Country:
     name: 'France'
     isEu: true
     currency: '@euro'
+  countryCH:
+    shortName: 'CH'
+    name: 'Switzerland'
+    isEu: false
+    currency: '@chf'
