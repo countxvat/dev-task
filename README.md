@@ -7,7 +7,9 @@ web application.
 
 Develop and integrate one or multiple REST API endpoints necessary for the implementation of a new feature within our
 web portal. Carefully examine the screenshots provided below, analyze the displayed data, and determine the necessary
-endpoints to fully support and implement this feature.
+endpoints to fully support and implement this feature. 
+
+**You must not implement the front-end.**
 
 ## Feature: Invoice Book Overview
 
@@ -23,11 +25,11 @@ the time period, and the 'is_oss' property.
 
 Desired outcome screenshots:
 
-![Invoice Book](https://github.com/countxvat/dev-task/blob/63db8efb0814af1ccda86fd1ec191cdc485686d2/public/img/invoice_book_example.png?raw=true)
+![Invoice Book](https://github.com/countxvat/dev-task/blob/master/public/img/invoice_book_example.png?raw=true)
 
-![Countries Dropdown](https://github.com/countxvat/dev-task/blob/63db8efb0814af1ccda86fd1ec191cdc485686d2/public/img/invoice_book_example_countries.png?raw=true)
+![Countries Dropdown](https://github.com/countxvat/dev-task/blob/master/public/img/invoice_book_example_countries.png?raw=true)
 
-![Periods Dropdown](https://github.com/countxvat/dev-task/blob/63db8efb0814af1ccda86fd1ec191cdc485686d2/public/img/invoice_book_example_periods.png?raw=true)
+![Periods Dropdown](https://github.com/countxvat/dev-task/blob/master/public/img/invoice_book_example_periods.png?raw=true)
 
 ## Development Requirements
 
