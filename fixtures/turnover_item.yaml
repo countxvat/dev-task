@@ -1,13 +1,13 @@
 App\Entity\TurnoverItem:
   turnover_item_client1_DE_to_PL{1..200}:
     turnover: '@turnover_client1_DE_to_PL<current()>'
-    invoiceVatRate: 19
+    invoiceVatRate: 23
     invoiceTotalNetAmount: 10000
-    invoiceTotalBruttoAmount: 11900
-    invoiceTotalVatAmount: 1900
+    invoiceTotalBruttoAmount: 12300
+    invoiceTotalVatAmount: 2300
     invoiceTotalNetAmountEUR: 2500
-    invoiceTotalBruttoAmountEUR: 2975
-    invoiceTotalVatAmountEUR : 475
+    invoiceTotalBruttoAmountEUR: 3075
+    invoiceTotalVatAmountEUR: 575
   turnover_item_client1_DE_to_PL_reduced_{1..50}:
     turnover: '@turnover_client1_DE_to_PL<current()>'
     invoiceVatRate: 5
