@@ -82,6 +82,11 @@ class Turnover
     private ?string $city = null;
 
     /**
+     * @ORM\Column(name="is_oss", type="boolean", options={"default": false}, nullable=false)
+     */
+    private bool $isOss = false;
+
+    /**
      * @Serializer\Groups({"api"})
      *
      * @ORM\OneToMany(targetEntity="App\Entity\TurnoverItem", mappedBy="turnover", cascade={"persist", "remove"})
@@ -171,6 +176,16 @@ class Turnover
     public function setCity(?string $city): void
     {
         $this->city = $city;
+    }
+
+    public function isOss(): bool
+    {
+        return $this->isOss;
+    }
+
+    public function setIsOss(bool $isOss): void
+    {
+        $this->isOss = $isOss;
     }
 
     public function getTurnoverItemList(): Collection

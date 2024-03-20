@@ -5,3 +5,6 @@ App\Entity\Currency:
   pln:
     shortName: 'PLN'
     name: 'Polish zloty'
+  chf:
+    shortName: 'CHF'
+    name: 'Swiss Franc'
