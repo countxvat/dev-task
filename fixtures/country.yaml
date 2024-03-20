@@ -1,4 +1,29 @@
 App\Entity\Country:
+  countryAT:
+    shortName: 'AT'
+    name: 'Austria'
+    isEu: true
+    currency: '@euro'
+  countryBE:
+    shortName: 'BE'
+    name: 'Belgium'
+    isEu: true
+    currency: '@euro'
+  countryBG:
+    shortName: 'BG'
+    name: 'Bulgaria'
+    isEu: true
+    currency: '@bgn'
+  countryHR:
+    shortName: 'HR'
+    name: 'Croatia'
+    isEu: true
+    currency: '@hrk'
+  countryCZ:
+    shortName: 'CZ'
+    name: 'Czech Republic'
+    isEu: true
+    currency: '@czk'
   countryDE:
     shortName: 'DE'
     name: 'Germany'
