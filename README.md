@@ -18,7 +18,10 @@ top-level information about the invoice, and the `turnover_item` table contains 
 vat rates. A single line in a `turnover_item` table represents a single line in the invoice book in the resulting
 web-application.
 
-Desired outcome illustrations:
+Users should have the capability to filter their invoice view based on several criteria, including the VAT country,
+the time period, and the 'is_oss' property.
+
+Desired outcome screenshots:
 
 ![Invoice Book](https://github.com/countxvat/dev-task/blob/63db8efb0814af1ccda86fd1ec191cdc485686d2/public/img/invoice_book_example.png?raw=true)
 
