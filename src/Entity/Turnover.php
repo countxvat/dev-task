@@ -68,6 +68,12 @@ class Turnover
     private Country $vatCountry;
 
     /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Currency")
+     * @ORM\JoinColumn(name="currency_id", referencedColumnName="id", nullable=true, onDelete="SET NULL")
+     */
+    private Currency $currency;
+
+    /**
      * @Serializer\Groups({"api"})
      *
      * @ORM\Column(name="zip_code", type="string", nullable=true)
@@ -196,5 +202,15 @@ class Turnover
     public function setTurnoverItemList(Collection $turnoverItemList): void
     {
         $this->turnoverItemList = $turnoverItemList;
+    }
+
+    public function getCurrency(): Currency
+    {
+        return $this->currency;
+    }
+
+    public function setCurrency(Currency $currency): void
+    {
+        $this->currency = $currency;
     }
 }
