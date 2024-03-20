@@ -8,6 +8,7 @@ App\Entity\Turnover:
     documentDate: <(new \DateTime('2023-12-27'))>
     zipCode: <(400+$current)>00
     city: '<city()>'
+    isOss: true
   turnover_client2_PL_to_FR{1..300}:
     client: '@client2'
     departureCountry: '@countryPL'
@@ -16,3 +17,4 @@ App\Entity\Turnover:
     documentNumber: 'DEPL-0000000-<current()>'
     documentDate: <(new \DateTime('2023-12-28'))>
     city: '<city()>'
+    isOss: false
