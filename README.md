@@ -7,7 +7,7 @@ web application.
 
 Develop and integrate one or multiple REST API endpoints necessary for the implementation of a new feature within our
 web portal. Carefully examine the screenshots provided below, analyze the displayed data, and determine the necessary
-endpoints to fully support and implement this feature. 
+endpoints to fully support and implement this feature.
 
 **You must not implement the front-end.**
 
@@ -34,8 +34,12 @@ Desired outcome screenshots:
 ## Development Requirements
 
 - Data Format: JSON.
-- Endpoints: You may design any number of endpoints, provided they support the necessary features.
+- Endpoints: Your goal is to create endpoints that address
+  the requirements, with the exception of listing periods.
+  If implementing all necessary endpoints becomes too challenging or time-consuming, it is acceptable to focus on the
+  most critical ones, ensuring they are fully functional and well-developed.
 - Design Principles: follow SOLID principles for scalable and maintainable code.
+- Extra Tip: You don't need to make an endpoint just for showing the list of periods.
 
 ## Submission Guidelines
 
@@ -43,6 +47,9 @@ Desired outcome screenshots:
 - Develop the feature on a new branch and create a pull request to your repository
 - Make your repository public or grant access to the following GitHub users: `debesha`, and `michaelcountx`.
 - Notify us once the task is completed, providing the link to your repository and the pull request.
+- If you decided to omit some endpoints due to complexity or time constraints, please clearly outline what additional
+  endpoints would be necessary for a full implementation in your submission. This helps us understand your approach and
+  the scope of your solution.
 
 ## Environment Setup (via Docker)
 
