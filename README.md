@@ -45,7 +45,7 @@ Desired outcome screenshots:
 
 - Clone this repository into your own account.
 - Develop the feature on a new branch and create a pull request to your repository
-- Make your repository public or grant access to the following GitHub users: `debesha`, and `michaelcountx`.
+- Make your repository public or grant access to the following GitHub user: `debesha`.
 - Notify us once the task is completed, providing the link to your repository and the pull request.
 - If you decided to omit some endpoints due to complexity or time constraints, please clearly outline what additional
   endpoints would be necessary for a full implementation in your submission. This helps us understand your approach and
